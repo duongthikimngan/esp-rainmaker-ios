@@ -25,7 +25,7 @@ jobs:
         working-directory: ESPRainMaker
         run: |
           xcodebuild -workspace ESPRainMaker.xcworkspace \
-            -scheme ESPRainmaker \
+            -scheme ESPRainMaker \
             -configuration Release \
             -sdk iphoneos \
             -destination 'generic/platform=iOS' \
